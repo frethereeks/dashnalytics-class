@@ -10,7 +10,7 @@ export default function Header() {
     <header className="px-4 bg-primary relative">
         <div className="container mx-auto py-3 px-4 flex justify-between items-center">
           <div className="flex flex-col text-gray-700">
-            <h2 className="font-semibold capitalize">Elder John Doe</h2>
+            <h2 className="font-semibold capitalize">Sotonte Stanley</h2>
             <p className="text-xs sm:text-sm opacity-70">Here you can manage your online store</p>
           </div>
           <div className={`fixed lg:static bg-white lg:bg-transparent ${showSearch ? 'top-0' : '-top-[200%]'} left-0 w-full lg:max-w-2xl flex-1 z-10 p-4 shadow-default lg:shadow-none`}>
