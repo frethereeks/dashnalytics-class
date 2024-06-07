@@ -24,7 +24,7 @@ export default function Header() {
             <button onClick={() => setShowSearch(prev => !prev)} className='text-gray-800 text-xs p-2 rounded-md lg:hidden'><LuSearch /></button>
             <button className='text-gray-800 text-xs p-2 rounded-md'><LuBellRing /></button>
             <div className="flex justify-center items-center gap-2 text-gray-600">
-              <h6 className="text-xs">Emily Duncan</h6>
+              <h6 className="text-xs">Kamsi Onwuka</h6>
               <img src={wreen_busylady} alt="" className="h-7 w-7 rounded-full cursor-pointer object-cover" />
             </div>
           </div>

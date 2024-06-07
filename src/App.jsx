@@ -6,6 +6,7 @@ import { Outlet, RouterProvider, createBrowserRouter } from 'react-router-dom'
 import Products from './pages/Products'
 import Login from './pages/Login'
 import Dashboard from './pages/Dashboard'
+import ErrorPage from './pages/ErrorPage'
 
 
 export default function App() {
@@ -38,7 +39,8 @@ export default function App() {
           path: "/products",
           element: <Products />
         },
-      ]
+      ],
+      errorElement:<ErrorPage />
     }
   ])
 
