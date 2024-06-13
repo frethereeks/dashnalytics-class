@@ -40,7 +40,7 @@ export default function App() {
           element: <Products />
         },
       ],
-      errorElement: <ErrorPage />
+      errorElement:<ErrorPage />
     }
   ])
 
