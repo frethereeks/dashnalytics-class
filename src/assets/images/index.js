@@ -7,6 +7,7 @@ import wreen_coffee_leaf from "./wreen_coffee_leaf.jpg"
 import wreen_coffee from "./wreen_coffee.jpg"
 import wreen_graybg from "./wreen_graybg.jpg"
 import wreen_laptop from "./wreen_laptop.jpg"
+import debit from "./debit.png"
 import wreen_outdoortype from "./wreen_outdoortype.jpg"
 // import wreen_videobg1 from "./wreen_videobg1.mp4"
 // import wreen_videobg2 from "./wreen_videobg2.mp4"
@@ -23,6 +24,7 @@ export {
     wreen_graybg,
     wreen_laptop,
     wreen_outdoortype,
+    debit,
     // wreen_videobg1,
     // wreen_videobg2,
     // wreen_videobg3,

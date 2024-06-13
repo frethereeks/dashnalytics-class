@@ -7,6 +7,8 @@ import Products from './pages/Products'
 import Login from './pages/Login'
 import Dashboard from './pages/Dashboard'
 import ErrorPage from './pages/ErrorPage'
+import Wallet from './pages/Wallet'
+import Transaction from './pages/Transaction'
 
 
 export default function App() {
@@ -36,8 +38,16 @@ export default function App() {
           element: <Login />
         },
         {
+          path: "/wallet",
+          element: <Wallet />
+        },
+        {
           path: "/products",
           element: <Products />
+        },
+        {
+          path: "/transaction",
+          element: <Transaction />
         },
       ],
       errorElement: <ErrorPage />
