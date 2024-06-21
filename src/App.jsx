@@ -7,7 +7,7 @@ import Products from './pages/Products'
 import Login from './pages/Login'
 import Dashboard from './pages/Dashboard'
 import ErrorPage from './pages/ErrorPage'
-
+import Shipment from './pages/Shipment'
 
 export default function App() {
 
@@ -38,6 +38,10 @@ export default function App() {
         {
           path: "/products",
           element: <Products />
+        },
+        {
+          path: "/shipment",
+          element: <Shipment />
         },
       ],
       errorElement: <ErrorPage />
