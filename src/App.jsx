@@ -6,6 +6,7 @@ import { Outlet, RouterProvider, createBrowserRouter } from 'react-router-dom'
 import Products from './pages/Products'
 import Login from './pages/Login'
 import Dashboard from './pages/Dashboard'
+import Wallet from './pages/Wallet'
 
 
 export default function App() {
@@ -37,6 +38,10 @@ export default function App() {
         {
           path: "/products",
           element: <Products />
+        },
+        {
+          path: "/wallet",
+          element: <Wallet />
         },
       ]
     }
