@@ -6,7 +6,11 @@ import { Outlet, RouterProvider, createBrowserRouter } from 'react-router-dom'
 import Products from './pages/Products'
 import Login from './pages/Login'
 import Dashboard from './pages/Dashboard'
+<<<<<<< HEAD
 import Wallet from './pages/Wallet'
+=======
+import ErrorPage from './pages/ErrorPage'
+>>>>>>> 344da8ea75d0098232be7d4ce51849bad9ccc75e
 
 
 export default function App() {
@@ -39,11 +43,16 @@ export default function App() {
           path: "/products",
           element: <Products />
         },
+<<<<<<< HEAD
         {
           path: "/wallet",
           element: <Wallet />
         },
       ]
+=======
+      ],
+      errorElement: <ErrorPage />
+>>>>>>> 344da8ea75d0098232be7d4ce51849bad9ccc75e
     }
   ])
 
